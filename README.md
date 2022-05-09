@@ -6,7 +6,7 @@
   <a href="https://github.com/zalo/PyWebMem/commits/master">
       <img src="https://img.shields.io/github/last-commit/zalo/PyWebMem" title="Last Commit Date"></a>
   <a href="https://github.com/zalo/PyWebMem/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/zalo/PyWebMem" title="License: Apache V2"></a>  <!-- No idea what license this should be! -->
+      <img src="https://img.shields.io/github/license/zalo/PyWebMem" title="License: GPLv3"></a>  <!-- No idea what license this should be! -->
 </p>
 
 Proof of Concept for a high-speed shared memory communication protocol with the browser.
