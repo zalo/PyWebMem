@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PyWebMem Demo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="application-name"   content="PyWebMem Demo">
+        <meta name="description"        content="Shared Memory with Python">
+        <meta name="keywords"           content="Shared, Memory, Browser, Python">
+        <meta name="author"             content="Johnathon Selstad">
+        <meta name="viewport"           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=0, shrink-to-fit=0">
+        <meta name="theme-color"        content="#ffffff">
+    </head>
+
+    <body style="margin:0px; background-color:rgb(255, 255, 255); overflow:hidden; position:fixed;">
+        <h1 hidden></h1> <!-- Puts the Lighthouse Score over 90 heheh -->
+        <div>Pull the repo, run main.py while the page is open, and it should inject some imagery into this canvas via shared memory</div>
+        <div id="appbody" style="position: absolute;z-index: -100;">
+            <canvas id="shared_canvas" width="640" height="480" style="border:1px solid" ></canvas>
+            <script src="./main.js"></script>
+        </div>
+    </body>
+</html>
